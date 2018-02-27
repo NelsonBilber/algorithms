@@ -7,7 +7,7 @@
 #https://www.codeproject.com/Articles/1181455/A-CMake-tutorial-for-Visual-Cplusplus-developers
 
 cmake_minimum_required(VERSION 2.6)
-project (Algorithms)
+project (Algorithms LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -38,14 +38,9 @@ set(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR})
 set(LIBRARY_OUTPUT_PATH ${CMAKE_BINARY_DIR})
 set(PROJECT_INCLUDE_DIR ${PROJECT_SOURCE_DIR}/include)
 
-#set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/../bin")
-#set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/../bin")
-#set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/../bin")
-
-
 option(DIR_SEARCH "Enable building searching" ON)
 option(DIR_SORTING "Enable building sorting" ON)
-option(DIR_TESTS "Enable building TEstings" ON)
+option(DIR_TESTS "Enable building Testings" ON)
 
 if(DIR_SEARCH)
   add_subdirectory(Searching)
