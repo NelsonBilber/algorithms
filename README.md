@@ -1,6 +1,6 @@
-#Algorithms
+# Algorithms
 
-##### Work in Progress ...
+##### (WIP) Work in Progress ...
 
 - create a sub module for catch
 - if not a recent version of OSX force to use g++ compiler recent versions
