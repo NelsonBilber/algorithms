@@ -5,7 +5,7 @@
 ** Big-Oh
 Big-oh notation that relates the  operations needed to process a N number of inputs
 
-[[file:/imgs/complexity.png]]
+[[file:/docs/imgs/complexity.png]]
 
 Number of operations N versus input size n for each function
 
@@ -76,7 +76,7 @@ f(k) has O(1) g(k) has O(k)
 from: [[https://github.com/donbeave/interview][Data Structures and Algorithms in Java]]
 
 ** Big Theta
-
+	
 
 ** Big Omega
 
