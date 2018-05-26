@@ -10,61 +10,64 @@ Another objective is to build a *Cmake* multi-project and work with /Continuous 
 - Create a sub module for catch
 - If not a recent version of OSX force to use g++ compiler recent versions - Integrate with a CI system (travis,appveyor, ...)
 
-
-*Algorithms Summary*
-	
-* Complexity 
+* Algorithms 
+** Complexity 
 
 Measure algorithm's complexity using a mathematical approach. 
 
-Check [[file:docs/complexity.org][here]] for details about *Big-Oh notation*
+Check [[file:docs/complexity.org][here]] for details about *Big-Oh notation* !!
 
-* Backtracking
-* Bit Manipulation
-* Data Structure
-** Array
-** Graph
-*** A*
-*** Bread First Search
-** Linked List
-** Map
-** Hashable
-** Heap Table
-** Tree
-** Trie
-** Queue
-** Stack
-* Depth First Search
-* Design
-* Dynamic Programming and Memoization
-* Geometry
-** Convex Hull
-** Traveling Salesman
-* Matrix
-* Math
-* Permutation
-* Probability
-* Sort and Search
-** Binary Search
-** Quick Sort
-** Merge Sort
-** Buble Sort
-* String
-* Two Pointers
-* Links
+** Backtracking
+** Bit Manipulation
+** Data Structure
+*** Array
+*** Graph
+**** A*
+**** Bread First Search
+*** Linked List
+*** Map
+*** Hashable
+*** Heap Table
+*** Tree
+*** Trie
+*** Queue
+*** Stack
+** Depth First Search
+** Design
+** Dynamic Programming and Memoization
+** Geometry
+*** Convex Hull
+*** Traveling Salesman
+** Matrix
+** Math
+** Permutation
+** Probability
+** Sort and Search
+*** Binary Search
+*** Quick Sort
+*** Merge Sort
+*** Buble Sort
+** String
+** Two Pointers
+** Links
 https://zoranpandovski.github.io/al-go-rithms/
+
 https://github.com/cirosantilli/algorithm-cheat
+
 https://github.com/kdn251/interviews
+
 https://github.com/yangshun/tech-interview-handbook/blob/master/algorithms/README.md
+
 https://github.com/donnemartin/interactive-coding-challenges
+
 https://github.com/adnanaziz/epicode/tree/master/cpp
+
 https://github.com/checkcheckzz/coding-questions
+
 https://github.com/royalpranjal/Interview-Bit
+
 https://github.com/zhedahht/CodingInterviewChinese2
 
-
-*CI Summary*
-
+* Continuous Integration Summary
 ** Project Structure
-
 [[https://juan-medina.com/2017/07/01/moderncppci/][Modern C++ CI]]
