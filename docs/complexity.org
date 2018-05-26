@@ -3,8 +3,15 @@
 
 * Complexity
 ** Big-Oh
-Big-oh notation relates the time and machine physical resources (memory, ...) to process algorithms.
-*** How Calculate it
+Big-oh notation that relates the  operations needed to process a N number of inputs
+
+[[file:/imgs/complexity.png]]
+
+Number of operations N versus input size n for each function
+
+credits image: [[https://en.wikipedia.org/wiki/Big_O_notation#/media/File:Comparison_computational_complexity.svg][Big-Oh graph]] 
+
+*** How to calculate it ?
 **** Constant
 
 O(1) - constant rate 
@@ -50,7 +57,7 @@ for (int c = 0; c < n; c++) {
 
 Growth Rate: n^2
 
-The outer loop executes N times. Every time the outer loop executes, the inner loop executes M times. As a result, the statements in the inner loop execute a total of N * M times. Thus, the complexity is O(N * M). In a common special case where the stopping condition of the inner loop is J < N instead of J < M (i.e., the inner loop also executes N times), the total complexity for the two loops is O(N2).
+" /The outer loop executes N times. Every time the outer loop executes, the inner loop executes M times. As a result, the statements in the inner loop execute a total of N * M times. Thus, the complexity is O(N * M). In a common special case where the stopping condition of the inner loop is J < N instead of J < M (i.e., the inner loop also executes N times), the total complexity for the two loops is O(N2)./ "
  
 from: [[https://github.com/donbeave/interview][Data Structures and Algorithms in Java]]
 
@@ -62,9 +69,9 @@ e.g. Generate all possible solutions to find a value, example a key.
 
 **** Code that calls other functions, how to calculate it ?
  
-"When a statement involves a function/ procedure call, the complexity of the statement includes the complexity of the function/ procedure. Assume that you know that function/procedure f takes constant time, and that function/procedure g takes time proportional to (linear in) the value of its parameter k. Then the statements below have the time complexities indicated.
+" /When a statement involves a function call, the complexity of the statement includes the complexity of the function. Assume that you know that function f takes constant time, and that function g takes time proportional to (linear in) the value of its parameter k. Then the statements below have the time complexities indicated./ "
 
-f(k) has O(1) g(k) has O(k) "
+f(k) has O(1) g(k) has O(k)
 
 from: [[https://github.com/donbeave/interview][Data Structures and Algorithms in Java]]
 
@@ -74,6 +81,6 @@ from: [[https://github.com/donbeave/interview][Data Structures and Algorithms in
 ** Big Omega
 
 
-** Links
-[[https://github.com/donbeave/interview][
-Data Structures and Algorithms in Java]]
+** Links 
+
+[[https://github.com/donbeave/interview][Data Structures and Algorithms in Java]]

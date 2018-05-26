@@ -17,7 +17,7 @@ Another objective is to build a *Cmake* multi-project and work with /Continuous 
 
 Measure algorithm's complexity using a mathematical approach. 
 
-Check [[file:docs/complexity.org][here]] for details about Big-Oh notation.
+Check [[file:docs/complexity.org][here]] for details about *Big-Oh notation*
 
 * Backtracking
 * Bit Manipulation
