@@ -1,9 +1,19 @@
 #+TITLE: Algorithms Complexity
 #+AUTHOR: Nelson Bilber Rodrigues
 
-* Complexity
-** Big-Oh
-Big-oh notation that relates the  operations needed to process a N number of inputs
+
+/Asymptotic Analysis is the big idea that handles above issues in analyzing algorithms. In Asymptotic Analysis, we evaluate the performance of an algorithm in terms of input size (we don’t measure the actual running time). We calculate, how does the time (or space) taken by an algorithm increases with the input size./
+
+from: [[https://www.geeksforgeeks.org/analysis-of-algorithms-set-1-asymptotic-analysis/][Analysis of Algorithms | Set 1 (Asymptotic Analysis)]]
+
+* Big-Oh
+Big-oh notation relates the number of operations needed to process a number of inputs. If input increases it can measures how long current algorithm will need to process all input.
+
+Use cases:
+
+- Measure the worst possible case for search and item on a list
+- How algorithm will behave when sorting a list
+
 
 [[file:/docs/imgs/complexity.png]]
 
@@ -38,7 +48,8 @@ for(int i = 0;i< 1000;i++)
 growing rate: n
 
 #+BEGIN_SRC C++
-for (int i = 0; i < n; i++) {
+for (int i = 0; i < n; i++) 
+{
 	r += 1;
 }
 #+END_SRC
@@ -47,11 +58,13 @@ The loop executes N times, so the sequence of statements also executes N times. 
 growing rate: n*log(n)
 #+BEGIN_SRC C++
 //Double loop(nested loops)
-for (int c = 0; c < n; c++) {
-  for (int i = 0; i < n; i++) {
-    // sequence of statements
-    a += 1;
-  }
+for (int c = 0; c < n; c++) 
+{
+	for (int i = 0; i < n; i++) 
+	{
+		// sequence of statements
+		a += 1;
+  	}
 }
 #+END_SRC
 
@@ -75,12 +88,13 @@ f(k) has O(1) g(k) has O(k)
 
 from: [[https://github.com/donbeave/interview][Data Structures and Algorithms in Java]]
 
-** Big Theta
+
+* Big Theta
 	
+* Big Omega
 
-** Big Omega
-
-
-** Links 
+* Links 
 
 [[https://github.com/donbeave/interview][Data Structures and Algorithms in Java]]
+
+[[https://justin.abrah.ms/computer-science/understanding-big-o-formal-definition.html][Understanding the formal definition of Big-O]]
