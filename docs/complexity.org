@@ -126,8 +126,7 @@ All graphs and tables are from: [[https://www.hackerearth.com/practice/notes/big
 [[file:/docs/imgs/big-oh-graphs.JPG]]
 
 
-* Big Theta And Big Omega
-
+* Big Theta and Big Omega
 
 " ... /Big O, big Theta and big Omega are sets of functions. Big O is giving upper asymptotic bound, while big Omega is giving a lower bound. Big Theta gives both./ "
 
@@ -143,3 +142,20 @@ From: [[https://stackoverflow.com/questions/10376740/what-exactly-does-big-%25D3
 [[https://justin.abrah.ms/computer-science/understanding-big-o-formal-definition.html][Understanding the formal definition of Big-O]]
 
 [[https://www.hackerearth.com/practice/notes/big-o-cheatsheet-series-data-structures-and-algorithms-with-thier-complexities-1/][Big o Cheatsheet - Data structures and Algorithms with thier complexities ]]
+
+
+cos (2\theta) = \cos^2 \theta - \sin^2 \theta
+
+
+\begin{equation}
+x=\sqrt{b}
+\end{equation}
+
+\[
+ \begin{matrix}
+  a & b & c \\
+  d & e & f \\
+  g & h & i
+ \end{matrix}
+\]
+
