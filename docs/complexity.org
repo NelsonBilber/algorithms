@@ -85,7 +85,7 @@ e.g. Mergesort, Quicksort
 
 **** Exponential 
 
-O(2^n)
+O(2^{n})
 
 Each step of a function performance, will take longer by order of magnitude of factor n 
 
@@ -143,26 +143,3 @@ From: [[https://stackoverflow.com/questions/10376740/what-exactly-does-big-%25D3
 
 [[https://www.hackerearth.com/practice/notes/big-o-cheatsheet-series-data-structures-and-algorithms-with-thier-complexities-1/][Big o Cheatsheet - Data structures and Algorithms with thier complexities ]]
 
-
-cos (2\theta) = \cos^2 \theta - \sin^2 \theta
-
-
-\begin{equation}
-x=\sqrt{b}
-\end{equation}
-
-\[
- \begin{matrix}
-  a & b & c \\
-  d & e & f \\
-  g & h & i
- \end{matrix}
-\]
-
- \sum_{\forall i}{x_i^{2}} 
-
- a^2 
-
- \sum_{k=1}^N k^2 
-
- \neg (a > 2) \Rightarrow a \le 2 
