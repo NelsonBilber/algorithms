@@ -161,8 +161,8 @@ x=\sqrt{b}
 
 $ \sum_{\forall i}{x_i^{2}} $
 
-$a^2$
+$ a^2 $
 
-$\sum_{k=1}^N k^2 $
+$ \sum_{k=1}^N k^2 $
 
-$\neg (a > 2) \Rightarrow a \le 2$
+$ \neg (a > 2) \Rightarrow a \le 2 $
