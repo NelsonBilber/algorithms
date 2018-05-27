@@ -2,18 +2,15 @@
 #+AUTHOR: Nelson Bilber Rodrigues
 
 
-/Asymptotic Analysis is the big idea that handles above issues in analyzing algorithms. In Asymptotic Analysis, we evaluate the performance of an algorithm in terms of input size (we don’t measure the actual running time). We calculate, how does the time (or space) taken by an algorithm increases with the input size./
+" /Asymptotic Analysis is the big idea that handles above issues in analyzing algorithms. In Asymptotic Analysis, we evaluate the performance of an algorithm in terms of input size (we don’t measure the actual running time). We calculate, how does the time (or space) taken by an algorithm increases with the input size./ "
 
 from: [[https://www.geeksforgeeks.org/analysis-of-algorithms-set-1-asymptotic-analysis/][Analysis of Algorithms | Set 1 (Asymptotic Analysis)]]
 
 * Big-Oh
-Big-oh notation relates the number of operations needed to process a number of inputs. If input increases it can measures how long current algorithm will need to process all input.
 
-Use cases:
+Big-oh notation measures algorithms according their running time or space requirements grow as the input size grows.
 
-- Measure the worst possible case for search and item on a list
-- How algorithm will behave when sorting a list
-
+The following graph relates the number of operations needed to process a number of inputs. 
 
 [[file:/docs/imgs/complexity.png]]
 
@@ -21,29 +18,24 @@ Number of operations N versus input size n for each function
 
 credits image: [[https://en.wikipedia.org/wiki/Big_O_notation#/media/File:Comparison_computational_complexity.svg][Big-Oh graph]] 
 
+Use cases:
+
+- Measure the worst possible case for search and item on a list
+- How algorithm will behave when sorting a list
+
+
 *** How to calculate it ?
 **** Constant
 
-O(1) - constant rate 
+O(1) - constant rate: execute same time independent of input size 
 growing rate = 1
 
 #+BEGIN_SRC C++
 i++
 #+END_SRC
 
-**** Logarithmic
-
-O(log(n)) - divide in half, eg. typical binary search
-growing rate = log(n)
-
-#+BEGIN_SRC C++
-for(int i = 0;i< 1000;i++)
-{
-	i = i/2;
-}
-#+END_SRC
-
 **** Linear
+O(n) - performance will grow linearly with the size of input data 
 
 growing rate: n
 
@@ -54,8 +46,23 @@ for (int i = 0; i < n; i++)
 }
 #+END_SRC
 The loop executes N times, so the sequence of statements also executes N times. If we assume the statements are O(1), the total time for the for loop is N * O(1), which is O(N) overall.
+**** Logarithmic
+
+O(log(n)) - Running time of the algorithm is proportional to the number of times N can be divided : eg. typical binary search
+
+growing rate = log(n)
+
+#+BEGIN_SRC C++
+for(int i = 0;i< 1000;i++)
+{
+	i = i/2;
+}
+#+END_SRC
+
 **** Quadratic
-growing rate: n*log(n)
+
+O(n^2) performance will grow proportional with the size of input data 
+
 #+BEGIN_SRC C++
 //Double loop(nested loops)
 for (int c = 0; c < n; c++) 
@@ -78,6 +85,10 @@ e.g. Mergesort, Quicksort
 
 **** Exponential 
 
+O(2^n)
+
+Each step of a function performance, will take longer by order of magnitude of factor n 
+
 e.g. Generate all possible solutions to find a value, example a key.
 
 **** Code that calls other functions, how to calculate it ?
@@ -88,13 +99,47 @@ f(k) has O(1) g(k) has O(k)
 
 from: [[https://github.com/donbeave/interview][Data Structures and Algorithms in Java]]
 
+**** Relation between Data Structures and Algorithms with their Complexities 
 
-* Big Theta
-	
-* Big Omega
+All graphs and tables are from: [[https://www.hackerearth.com/practice/notes/big-o-cheatsheet-series-data-structures-and-algorithms-with-thier-complexities-1/][Big o Cheatsheet - Data structures and Algorithms with thier complexities ]]
+
+***** Data Structures
+
+[[file:/docs/imgs/big-oh-data-structures.jpg]]
+
+[[file:/docs/imgs/big-oh-data-structures-2.jpg]]
+
+***** Searching
+
+[[file:/docs/imgs/big-oh-searching.jpg]]
+
+***** Sorting
+
+[[file:/docs/imgs/big-oh-sorting.jpg]]
+
+***** Heaps
+
+[[file:/docs/imgs/big-oh-heaps.JPG]]
+
+***** Graphs 
+
+[[file:/docs/imgs/big-oh-graphs.JPG]]
+
+
+* Big Theta And Big Omega
+
+
+" ... /Big O, big Theta and big Omega are sets of functions. Big O is giving upper asymptotic bound, while big Omega is giving a lower bound. Big Theta gives both./ "
+
+From: [[https://stackoverflow.com/questions/10376740/what-exactly-does-big-%25D3%25A8-notation-represent][What exactly does big Ө notation represent?]]	
+
 
 * Links 
+
+[[https://en.wikipedia.org/wiki/Big_O_notation][Big O notation - wikipedia]]
 
 [[https://github.com/donbeave/interview][Data Structures and Algorithms in Java]]
 
 [[https://justin.abrah.ms/computer-science/understanding-big-o-formal-definition.html][Understanding the formal definition of Big-O]]
+
+[[https://www.hackerearth.com/practice/notes/big-o-cheatsheet-series-data-structures-and-algorithms-with-thier-complexities-1/][Big o Cheatsheet - Data structures and Algorithms with thier complexities ]]
