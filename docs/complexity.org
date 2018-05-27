@@ -61,7 +61,7 @@ for(int i = 0;i< 1000;i++)
 
 **** Quadratic
 
-O(n^2) performance will grow proportional with the size of input data 
+O(n^{2}) performance will grow proportional with the size of input data 
 
 #+BEGIN_SRC C++
 //Double loop(nested loops)
@@ -75,7 +75,7 @@ for (int c = 0; c < n; c++)
 }
 #+END_SRC
 
-Growth Rate: n^2
+Growth Rate: n^{2}
 
 " /The outer loop executes N times. Every time the outer loop executes, the inner loop executes M times. As a result, the statements in the inner loop execute a total of N * M times. Thus, the complexity is O(N * M). In a common special case where the stopping condition of the inner loop is J < N instead of J < M (i.e., the inner loop also executes N times), the total complexity for the two loops is O(N2)./ "
  
@@ -159,10 +159,10 @@ x=\sqrt{b}
  \end{matrix}
 \]
 
-$ \sum_{\forall i}{x_i^{2}} $
+ \sum_{\forall i}{x_i^{2}} 
 
-$ a^2 $
+ a^2 
 
-$ \sum_{k=1}^N k^2 $
+ \sum_{k=1}^N k^2 
 
-$ \neg (a > 2) \Rightarrow a \le 2 $
+ \neg (a > 2) \Rightarrow a \le 2 
