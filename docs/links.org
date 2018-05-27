@@ -1,0 +1,20 @@
+#+TITLE: Algorithms Labs
+#+AUTHOR:Nelson Rodrigues
+
+https://zoranpandovski.github.io/al-go-rithms/
+
+https://github.com/cirosantilli/algorithm-cheat
+
+https://github.com/kdn251/interviews
+
+https://github.com/yangshun/tech-interview-handbook/blob/master/algorithms/README.md
+
+https://github.com/donnemartin/interactive-coding-challenges
+
+https://github.com/adnanaziz/epicode/tree/master/cpp
+
+https://github.com/checkcheckzz/coding-questions
+
+https://github.com/royalpranjal/Interview-Bit
+
+https://github.com/zhedahht/CodingInterviewChinese2
