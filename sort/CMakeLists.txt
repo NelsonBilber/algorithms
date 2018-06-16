@@ -2,7 +2,13 @@
 
 # CMake build : library
 
-set (SUB_FOLDER_LIB search)
+set (SUB_FOLDER_LIB sort)
+
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
+
 
 #configure variables
 set (LIB_NAME ${SUB_FOLDER_LIB}Lib)

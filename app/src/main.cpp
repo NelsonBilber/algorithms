@@ -1,7 +1,7 @@
 /*
  *  Distributed under the MIT License (See accompanying file /LICENSE )
  */
-#include "calc.h"
+//#include "calc.h"
 #include "logger.h"
 
 //@todo
@@ -14,8 +14,7 @@ int main(int argc, char *argv[]) {
 
   Logger log{__func__};
 
-  log.info("doing some calculation");
-  log.info(Calc{} << 1 << "+" << 2 << "*" << 5 << "-" << 3 << "/" << 4);
+  log.info("Sorting Algorithms");
 
   return 0;
 }
