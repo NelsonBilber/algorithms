@@ -7,11 +7,6 @@ This is a /Work In Progress/. The objective is to do some experiments with commo
 
 Another objective is to build a *Cmake* multi-project and work with /Continuous Integrations Systems/ with github repository  
 
-*Next tasks*
-
-- Create a sub module for catch
-- If not a recent version of OSX force to use g++ compiler recent versions - Integrate with a CI system (travis,appveyor, ...)
-
 ** Index
 *** Complexity 
 
@@ -21,7 +16,7 @@ Measure algorithm's complexity using a mathematical approach.
 
 *** Sorting	
 
-- [X] QuickSort (simple Version) 
+- QuickSort (simple Version) 
 
 *** Next Tasks
 
