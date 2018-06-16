@@ -19,7 +19,11 @@ Measure algorithm's complexity using a mathematical approach.
 
  [[file:docs/complexity.org][Big-Oh notation]] 
 
-*** Next Steps
+*** Sorting	
+
+- [X] QuickSort (simple Version) 
+
+*** Next Tasks
 
 [[file:docs/todo.org][TODO's]]
 

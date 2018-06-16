@@ -35,3 +35,8 @@ Possible topics to approach
 *** Buble Sort
 ** String
 ** Two Pointers
+** Continuous Integration
+
+- [X] - Create a submodule to catch2 
+- If not a recent version of OSX force to use g++ compiler recent versions - Integrate with a CI system (travis,appveyor, ...)
+
