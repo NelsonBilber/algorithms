@@ -8,23 +8,23 @@ This is a /Work In Progress/. The objective is to do some experiments with commo
 Another objective is to build a *Cmake* multi-project and work with /Continuous Integration Systems/ with github repository  
 
 ** Index
-*** Complexity 
+**** Complexity 
 
 Measure algorithm's complexity using a mathematical approach. 
 
  [[file:docs/complexity.org][Big-Oh notation]] 
 
-*** Sorting	
+**** Sorting	
 
 - QuickSort (simple Version) 
 
-*** Project structure
+**** Project structure
 
 - Cmake (open-source, cross-platform family of tools designed to build, test and package software)
 - Catch2 (unit test)
 - Travis CI or AppVeyor (Continuous Integration environment)
 
-*** Next Tasks
+**** Next Tasks
 
 [[file:docs/todo.org][TODO's]]
 
